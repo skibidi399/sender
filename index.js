@@ -41,7 +41,7 @@ client.on('messageCreate', async (message) => {
 
   // Example: command prefix "!roblox "
   if (message.content.startsWith('!sendab ')) {
-    const content = message.content.slice('!roblox '.length).trim();
+    const content = message.content.slice('!sendab '.length).trim();
     const payload = {
       type: 'discord_message',
       author: message.author.tag,
